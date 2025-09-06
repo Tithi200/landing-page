@@ -119,6 +119,9 @@ body, html {
   text-shadow: 2px 2px 5px #ffd1dc; 
 }
 
+.button:active {
+  background-color: blue;
+}
 
 .emoji-container {
   position: absolute;
@@ -300,4 +303,5 @@ body.no-scroll {
   }
   #intro h1 { font-size: 1.5rem; }
   #enterBtn { padding: 12px 35px; font-size: 0.95rem; }
+
 }
