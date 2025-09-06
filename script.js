@@ -120,3 +120,11 @@ document.addEventListener("mousemove", (e) => {
     onComplete: () => star.remove()
   });
 });
+element.addEventListener("touchstart", () => {
+  element.classList.add("hover-effect");
+});
+element.addEventListener("touchend", () => {
+  element.classList.remove("hover-effect");
+});
+
+
